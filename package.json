@@ -13,7 +13,7 @@
   },
   "type": "commonjs",
   "browser": {
-    "./mqtt.js": "./mqtt.browser.js",
+    "./mqtt.js": "./dist/mqtt.browser.js",
     "fs": false,
     "tls": false,
     "net": false
