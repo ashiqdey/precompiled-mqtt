@@ -6,6 +6,9 @@
 This package is a prebuild version of mqtt [mqtt (npm)](https://www.npmjs.com/package/mqtt) [Github](https://github.com/mqttjs/MQTT.js)
 For using the mqtt in react we have to build using webpack which thorws dozens of error in webpack 5 and due to varying system environment. So the goal of this package is to able to use the official mqtt package directly without any additional work. Also while deploying our react project in AWS amplify do face lot of issue in setting up build configs so using this package those issues will be solved. 
 
+# Important
+Use lastest version or precompiled-mqtt@4.3.12 which is the build of mqtt@4.3.7 please dont install any version prior to 4.3.12 those are buggy and not well tested.
+
 
 ## Why this package?
 Just to get rid of [this build process for react](https://github.com/mqttjs/MQTT.js#react)
