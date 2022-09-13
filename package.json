@@ -24,6 +24,10 @@
   "bundleDependencies": false,
   "contributors": [
     {
+      "name": "Ashiq Dey",
+      "email": "ashiqdey@gmail.com"
+    },
+    {
       "name": "Adam Rudd",
       "email": "adamvrr@gmail.com"
     },
@@ -100,6 +104,7 @@
   "files": [
     "/dist",
     "CONTRIBUTING.md",
+    "types",
     "mqtt.js"
   ],
   "author": "Ashiq Dey",
@@ -121,6 +126,7 @@
   "scripts": {
     "test:browser": "npm run browser-build && npm run unit-test:browser"
   },
+  "types": "types/index.d.ts",
   "standard": {
     "env": [
       "mocha"
